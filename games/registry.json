@@ -1,0 +1,3396 @@
+{
+  "version": 1,
+  "generated_from": "scripts/restructure.py",
+  "categories": [
+    {
+      "id": "puzzle",
+      "label": "Puzzle",
+      "emoji": "🧩",
+      "color": "#7c3aed"
+    },
+    {
+      "id": "arcade",
+      "label": "Arcade",
+      "emoji": "🕹️",
+      "color": "#ec4899"
+    },
+    {
+      "id": "shooter",
+      "label": "Shooter",
+      "emoji": "🎯",
+      "color": "#ef4444"
+    },
+    {
+      "id": "racing",
+      "label": "Racing",
+      "emoji": "🏎️",
+      "color": "#f59e0b"
+    },
+    {
+      "id": "sports",
+      "label": "Sports",
+      "emoji": "⚽",
+      "color": "#10b981"
+    },
+    {
+      "id": "platformer",
+      "label": "Platformer",
+      "emoji": "🏃",
+      "color": "#06b6d4"
+    },
+    {
+      "id": "casual",
+      "label": "Casual",
+      "emoji": "🎈",
+      "color": "#f472b6"
+    },
+    {
+      "id": "board",
+      "label": "Board",
+      "emoji": "♟️",
+      "color": "#64748b"
+    },
+    {
+      "id": "word-quiz",
+      "label": "Word & Quiz",
+      "emoji": "📝",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "3d",
+      "label": "3D",
+      "emoji": "🌐",
+      "color": "#8b5cf6"
+    }
+  ],
+  "games": [
+    {
+      "slug": "2048",
+      "name": "2048",
+      "category": "puzzle",
+      "path": "games/puzzle/2048/index.html",
+      "tech": "phaser",
+      "tags": [
+        "merge",
+        "numbers",
+        "classic"
+      ],
+      "description": "Slide tiles. Merge matching numbers. Reach 2048.",
+      "i18n": {
+        "fa": {
+          "name": "۲۰۴۸",
+          "description": "خانه‌ها را جابه‌جا کن، عددهای یکسان را ترکیب کن و به عدد ۲۰۴۸ برس.",
+          "category": "معمایی",
+          "tags": [
+            "ترکیب",
+            "اعداد",
+            "کلاسیک"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "6oct",
+      "name": "6 Octagons",
+      "category": "puzzle",
+      "path": "games/puzzle/6oct/index.html",
+      "tech": "phaser",
+      "tags": [
+        "tiles",
+        "minimal"
+      ],
+      "description": "Octagon-tile sliding puzzle.",
+      "i18n": {
+        "fa": {
+          "name": "۶ هشت‌ضلعی",
+          "description": "قطعه‌های هشت‌ضلعی را جابه‌جا کن و معما را حل کن.",
+          "category": "معمایی",
+          "tags": [
+            "tiles",
+            "minimal"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "rock-paper-scissors",
+      "name": "Rock Paper Scissors",
+      "category": "board",
+      "path": "games/board/rock-paper-scissors/index.html",
+      "tech": "phaser",
+      "tags": [
+        "classic",
+        "quick"
+      ],
+      "description": "The timeless hand game vs the AI.",
+      "i18n": {
+        "fa": {
+          "name": "سنگ، کاغذ، قیچی",
+          "description": "در این بازی کلاسیک دست‌ها، حریف هوش مصنوعی را شکست بده.",
+          "category": "board",
+          "tags": [
+            "کلاسیک",
+            "quick"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "sudoku",
+      "name": "Sudoku",
+      "category": "puzzle",
+      "path": "games/puzzle/sudoku/index.html",
+      "tech": "html",
+      "tags": [
+        "logic",
+        "numbers",
+        "classic"
+      ],
+      "description": "Classic 9x9 number logic puzzle.",
+      "i18n": {
+        "fa": {
+          "name": "سودوکو",
+          "description": "جدول کلاسیک ۹ در ۹ را با منطق و بدون تکرار کامل کن.",
+          "category": "معمایی",
+          "tags": [
+            "منطقی",
+            "اعداد",
+            "کلاسیک"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "abhita",
+      "name": "Abhita",
+      "category": "arcade",
+      "path": "games/arcade/abhita/index.html",
+      "tech": "phaser",
+      "tags": [
+        "reflex",
+        "dodge"
+      ],
+      "description": "Reflex-driven dodge mini-game.",
+      "i18n": {
+        "fa": {
+          "name": "ابهیتا",
+          "description": "با واکنش سریع از موانع جاخالی بده.",
+          "category": "آرکید",
+          "tags": [
+            "reflex",
+            "dodge"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "alien-battle",
+      "name": "Alien Battle",
+      "category": "shooter",
+      "path": "games/shooter/alien-battle/index.html",
+      "tech": "phaser",
+      "tags": [
+        "aliens",
+        "top-down",
+        "survival"
+      ],
+      "description": "Top-down alien shooter. Survive the swarm.",
+      "i18n": {
+        "fa": {
+          "name": "نبرد بیگانگان",
+          "description": "در این تیراندازی از بالا به پایین، در برابر هجوم بیگانگان زنده بمان.",
+          "category": "تیراندازی",
+          "tags": [
+            "aliens",
+            "top-down",
+            "survival"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "antigravity",
+      "name": "Anti-Gravity",
+      "category": "platformer",
+      "path": "games/platformer/antigravity/index.html",
+      "tech": "phaser",
+      "tags": [
+        "physics",
+        "gravity"
+      ],
+      "description": "Flip gravity to navigate hazards.",
+      "i18n": {
+        "fa": {
+          "name": "ضدجاذبه",
+          "description": "جهش گرانش را تغییر بده و از میان موانع عبور کن.",
+          "category": "سکوبازی",
+          "tags": [
+            "فیزیک",
+            "gravity"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "archer",
+      "name": "Archer",
+      "category": "sports",
+      "path": "games/sports/archer/index.html",
+      "tech": "html",
+      "tags": [
+        "bow",
+        "aim",
+        "precision"
+      ],
+      "description": "Aim, draw, and release. Hit your target.",
+      "i18n": {
+        "fa": {
+          "name": "کماندار",
+          "description": "هدف بگیر، زه کمان را بکش و تیر را به هدف بزن.",
+          "category": "ورزشی",
+          "tags": [
+            "bow",
+            "aim",
+            "precision"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "balance-stack",
+      "name": "Balance Stack",
+      "category": "arcade",
+      "path": "games/arcade/balance-stack/index.html",
+      "tech": "phaser",
+      "tags": [
+        "stacking",
+        "balance"
+      ],
+      "description": "Stack blocks without toppling the tower.",
+      "i18n": {
+        "fa": {
+          "name": "برج متعادل",
+          "description": "بلوک‌ها را روی هم بچین، بدون اینکه برج فرو بریزد.",
+          "category": "آرکید",
+          "tags": [
+            "stacking",
+            "balance"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "basketball",
+      "name": "Basketball",
+      "category": "sports",
+      "path": "games/sports/basketball/index.html",
+      "tech": "phaser",
+      "tags": [
+        "hoops",
+        "arcade-sports"
+      ],
+      "description": "Arc the ball through the hoop.",
+      "i18n": {
+        "fa": {
+          "name": "بسکتبال",
+          "description": "توپ را با پرتابی دقیق از حلقه عبور بده.",
+          "category": "ورزشی",
+          "tags": [
+            "hoops",
+            "arcade-sports"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "bird-shooter",
+      "name": "Bird Shooter",
+      "category": "shooter",
+      "path": "games/shooter/bird-shooter/index.html",
+      "tech": "phaser",
+      "tags": [
+        "aim",
+        "reflex"
+      ],
+      "description": "Track and shoot flying birds.",
+      "i18n": {
+        "fa": {
+          "name": "شکارچی پرندگان",
+          "description": "پرندگان در حال پرواز را هدف بگیر و شلیک کن.",
+          "category": "تیراندازی",
+          "tags": [
+            "aim",
+            "reflex"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "bomb-blast",
+      "name": "Bomb Blast",
+      "category": "arcade",
+      "path": "games/arcade/bomb-blast/index.html",
+      "tech": "phaser",
+      "tags": [
+        "explosions",
+        "timing"
+      ],
+      "description": "Time the blast to chain destruction.",
+      "i18n": {
+        "fa": {
+          "name": "انفجار بمب",
+          "description": "زمان انفجار را درست انتخاب کن تا زنجیره‌ای از تخریب ایجاد شود.",
+          "category": "آرکید",
+          "tags": [
+            "explosions",
+            "timing"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "boom-dots",
+      "name": "Boom Dots",
+      "category": "arcade",
+      "path": "games/arcade/boom-dots/index.html",
+      "tech": "phaser",
+      "tags": [
+        "chain",
+        "reflex"
+      ],
+      "description": "Tap to detonate dots and clear the screen.",
+      "i18n": {
+        "fa": {
+          "name": "انفجار نقطه‌ها",
+          "description": "روی نقطه‌ها بزن، آن‌ها را منفجر کن و صفحه را پاک‌سازی کن.",
+          "category": "آرکید",
+          "tags": [
+            "chain",
+            "reflex"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "bowling",
+      "name": "Bowling",
+      "category": "sports",
+      "path": "games/sports/bowling/index.html",
+      "tech": "phaser",
+      "tags": [
+        "pins",
+        "aim",
+        "sport"
+      ],
+      "description": "Knock down all the pins.",
+      "i18n": {
+        "fa": {
+          "name": "بولینگ",
+          "description": "با پرتاب دقیق توپ، همه پین‌ها را بینداز.",
+          "category": "ورزشی",
+          "tags": [
+            "pins",
+            "aim",
+            "sport"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "breakoid",
+      "name": "Breakoid",
+      "category": "arcade",
+      "path": "games/arcade/breakoid/index.html",
+      "tech": "phaser",
+      "tags": [
+        "brick",
+        "paddle",
+        "classic"
+      ],
+      "description": "Breakout-style brick smashing.",
+      "i18n": {
+        "fa": {
+          "name": "آجرشکن",
+          "description": "با توپ و صفحه متحرک، آجرها را خرد کن.",
+          "category": "آرکید",
+          "tags": [
+            "brick",
+            "paddle",
+            "کلاسیک"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "bubble-pop",
+      "name": "Bubble Pop",
+      "category": "casual",
+      "path": "games/casual/bubble-pop/index.html",
+      "tech": "phaser",
+      "tags": [
+        "match",
+        "bubbles",
+        "relaxing"
+      ],
+      "description": "Pop matching bubbles to score.",
+      "i18n": {
+        "fa": {
+          "name": "ترکاندن حباب‌ها",
+          "description": "حباب‌های هم‌رنگ را بترکان و امتیاز بگیر.",
+          "category": "تفننی",
+          "tags": [
+            "match",
+            "bubbles",
+            "relaxing"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "bubble-shooter",
+      "name": "Bubble Shooter",
+      "category": "casual",
+      "path": "games/casual/bubble-shooter/index.html",
+      "tech": "phaser",
+      "tags": [
+        "match-3",
+        "shooter",
+        "classic"
+      ],
+      "description": "Shoot bubbles into matching color clusters.",
+      "i18n": {
+        "fa": {
+          "name": "حباب‌تیرانداز",
+          "description": "حباب‌ها را به خوشه‌های هم‌رنگ شلیک کن.",
+          "category": "تفننی",
+          "tags": [
+            "match-3",
+            "تیراندازی",
+            "کلاسیک"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "bug-smasher",
+      "name": "Bug Smasher",
+      "category": "arcade",
+      "path": "games/arcade/bug-smasher/index.html",
+      "tech": "phaser",
+      "tags": [
+        "whack",
+        "reflex"
+      ],
+      "description": "Squash bugs before they reach the goal.",
+      "i18n": {
+        "fa": {
+          "name": "له‌کن حشرات",
+          "description": "پیش از رسیدن حشرات به مقصد، آن‌ها را از بین ببر.",
+          "category": "آرکید",
+          "tags": [
+            "whack",
+            "reflex"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "buttermilk",
+      "name": "Buttermilk",
+      "category": "casual",
+      "path": "games/casual/buttermilk/index.html",
+      "tech": "phaser",
+      "tags": [
+        "idle",
+        "pour",
+        "cute"
+      ],
+      "description": "Cute pour-and-mix idle game.",
+      "i18n": {
+        "fa": {
+          "name": "باترمیلک",
+          "description": "یک بازی آرام و بامزه برای ریختن و ترکیب کردن مواد.",
+          "category": "تفننی",
+          "tags": [
+            "idle",
+            "pour",
+            "cute"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "candy-crush",
+      "name": "Candy Crush",
+      "category": "casual",
+      "path": "games/casual/candy-crush/index.html",
+      "tech": "phaser",
+      "tags": [
+        "match-3",
+        "candy",
+        "classic"
+      ],
+      "description": "Match-3 candy puzzle.",
+      "i18n": {
+        "fa": {
+          "name": "کندی کراش",
+          "description": "آب‌نبات‌های هم‌شکل را کنار هم قرار بده و معمای جورچین را حل کن.",
+          "category": "تفننی",
+          "tags": [
+            "match-3",
+            "candy",
+            "کلاسیک"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "candy-crusher",
+      "name": "Candy Crusher",
+      "category": "casual",
+      "path": "games/casual/candy-crusher/index.html",
+      "tech": "phaser",
+      "tags": [
+        "match",
+        "crush"
+      ],
+      "description": "Smash candy patterns for points.",
+      "i18n": {
+        "fa": {
+          "name": "خردکن آب‌نبات",
+          "description": "الگوهای آب‌نباتی را خرد کن و امتیاز بگیر.",
+          "category": "تفننی",
+          "tags": [
+            "match",
+            "crush"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "cannon-blaster",
+      "name": "Cannon Blaster",
+      "category": "shooter",
+      "path": "games/shooter/cannon-blaster/index.html",
+      "tech": "phaser",
+      "tags": [
+        "cannon",
+        "physics",
+        "aim"
+      ],
+      "description": "Aim and fire cannonballs at targets.",
+      "i18n": {
+        "fa": {
+          "name": "توپ‌خانه",
+          "description": "توپ را نشانه بگیر و به سمت هدف‌ها شلیک کن.",
+          "category": "تیراندازی",
+          "tags": [
+            "cannon",
+            "فیزیک",
+            "aim"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "cargo-stack",
+      "name": "Cargo Stack",
+      "category": "puzzle",
+      "path": "games/puzzle/cargo-stack/index.html",
+      "tech": "phaser",
+      "tags": [
+        "stacking",
+        "logistics"
+      ],
+      "description": "Pack cargo crates without overflow.",
+      "i18n": {
+        "fa": {
+          "name": "چیدمان بار",
+          "description": "جعبه‌های بار را طوری بچین که از ظرفیت خارج نشوند.",
+          "category": "معمایی",
+          "tags": [
+            "stacking",
+            "logistics"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "car-race",
+      "name": "Car Race",
+      "category": "racing",
+      "path": "games/racing/car-race/index.html",
+      "tech": "three",
+      "tags": [
+        "3d",
+        "cars",
+        "traffic"
+      ],
+      "description": "3D car-racing run with traffic dodging.",
+      "i18n": {
+        "fa": {
+          "name": "مسابقه خودرو",
+          "description": "در یک مسابقه سه‌بعدی رانندگی کن و از ترافیک جاخالی بده.",
+          "category": "مسابقه‌ای",
+          "tags": [
+            "3d",
+            "cars",
+            "traffic"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "carrom",
+      "name": "Carrom",
+      "category": "board",
+      "path": "games/board/carrom/index.html",
+      "tech": "phaser",
+      "tags": [
+        "table",
+        "aim",
+        "classic"
+      ],
+      "description": "Pocket the carrom pieces with skill.",
+      "i18n": {
+        "fa": {
+          "name": "کاروم",
+          "description": "مهره‌های کاروم را با مهارت وارد سوراخ‌ها کن.",
+          "category": "board",
+          "tags": [
+            "table",
+            "aim",
+            "کلاسیک"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "chess",
+      "name": "Chess",
+      "category": "board",
+      "path": "games/board/chess/index.html",
+      "tech": "phaser",
+      "tags": [
+        "strategy",
+        "classic"
+      ],
+      "description": "Classic chess vs the computer.",
+      "i18n": {
+        "fa": {
+          "name": "شطرنج",
+          "description": "در بازی کلاسیک شطرنج با رایانه رقابت کن.",
+          "category": "board",
+          "tags": [
+            "استراتژی",
+            "کلاسیک"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "circle-path",
+      "name": "Circle Path",
+      "category": "arcade",
+      "path": "games/arcade/circle-path/index.html",
+      "tech": "phaser",
+      "tags": [
+        "timing",
+        "ring"
+      ],
+      "description": "Trace the rotating circle without slipping.",
+      "i18n": {
+        "fa": {
+          "name": "مسیر دایره‌ای",
+          "description": "مسیر دایره‌ای چرخان را بدون لغزش دنبال کن.",
+          "category": "آرکید",
+          "tags": [
+            "timing",
+            "ring"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "circuit-bulb",
+      "name": "Circuit Bulb",
+      "category": "puzzle",
+      "path": "games/puzzle/circuit-bulb/index.html",
+      "tech": "phaser",
+      "tags": [
+        "logic",
+        "wires"
+      ],
+      "description": "Wire circuits to light the bulb.",
+      "i18n": {
+        "fa": {
+          "name": "مدار و لامپ",
+          "description": "سیم‌های مدار را وصل کن تا لامپ روشن شود.",
+          "category": "معمایی",
+          "tags": [
+            "منطقی",
+            "wires"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "catch-me-if-you-can",
+      "name": "Catch Me If You Can",
+      "category": "arcade",
+      "path": "games/arcade/catch-me-if-you-can/index.html",
+      "tech": "phaser",
+      "tags": [
+        "chase",
+        "stealth"
+      ],
+      "description": "Outrun the chasers in a wide arena.",
+      "i18n": {
+        "fa": {
+          "name": "اگه می‌تونی بگیرم",
+          "description": "در میدان بازی از دست تعقیب‌کننده‌ها فرار کن.",
+          "category": "آرکید",
+          "tags": [
+            "chase",
+            "stealth"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "collector",
+      "name": "Collector",
+      "category": "arcade",
+      "path": "games/arcade/collector/index.html",
+      "tech": "phaser",
+      "tags": [
+        "coins",
+        "time-attack"
+      ],
+      "description": "Sweep up coins before time runs out.",
+      "i18n": {
+        "fa": {
+          "name": "جمع‌آورنده",
+          "description": "پیش از پایان زمان، همه سکه‌ها را جمع کن.",
+          "category": "آرکید",
+          "tags": [
+            "coins",
+            "time-attack"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "color-dash",
+      "name": "Color Dash",
+      "category": "arcade",
+      "path": "games/arcade/color-dash/index.html",
+      "tech": "phaser",
+      "tags": [
+        "color-match",
+        "reflex"
+      ],
+      "description": "Match the player's color to pass each gate.",
+      "i18n": {
+        "fa": {
+          "name": "جهش رنگی",
+          "description": "رنگ بازیکن را با رنگ هر دروازه هماهنگ کن.",
+          "category": "آرکید",
+          "tags": [
+            "color-match",
+            "reflex"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "colour-pour",
+      "name": "Colour Pour",
+      "category": "puzzle",
+      "path": "games/puzzle/colour-pour/index.html",
+      "tech": "phaser",
+      "tags": [
+        "sort",
+        "liquid",
+        "relax"
+      ],
+      "description": "Sort liquids into single-color tubes.",
+      "i18n": {
+        "fa": {
+          "name": "مرتب‌سازی رنگ‌ها",
+          "description": "مایع‌ها را طوری جابه‌جا کن که هر لوله فقط یک رنگ داشته باشد.",
+          "category": "معمایی",
+          "tags": [
+            "sort",
+            "liquid",
+            "relax"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "connected",
+      "name": "Connected",
+      "category": "puzzle",
+      "path": "games/puzzle/connected/index.html",
+      "tech": "phaser",
+      "tags": [
+        "graph",
+        "logic"
+      ],
+      "description": "Link nodes without crossing lines.",
+      "i18n": {
+        "fa": {
+          "name": "اتصال گره‌ها",
+          "description": "گره‌ها را بدون برخورد خطوط به هم وصل کن.",
+          "category": "معمایی",
+          "tags": [
+            "graph",
+            "منطقی"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "cooking",
+      "name": "Cooking",
+      "category": "casual",
+      "path": "games/casual/cooking/index.html",
+      "tech": "phaser",
+      "tags": [
+        "timer",
+        "kitchen"
+      ],
+      "description": "Plate orders before the timer hits zero.",
+      "i18n": {
+        "fa": {
+          "name": "آشپزی",
+          "description": "پیش از تمام شدن زمان، سفارش‌ها را آماده و سرو کن.",
+          "category": "تفننی",
+          "tags": [
+            "timer",
+            "kitchen"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "cool-platformer",
+      "name": "Cool Platformer",
+      "category": "platformer",
+      "path": "games/platformer/cool-platformer/index.html",
+      "tech": "phaser",
+      "tags": [
+        "jump",
+        "run",
+        "platform"
+      ],
+      "description": "Run, jump, and dash through hazards.",
+      "i18n": {
+        "fa": {
+          "name": "سکوبازی هیجان‌انگیز",
+          "description": "بدو، بپر و از میان موانع عبور کن.",
+          "category": "سکوبازی",
+          "tags": [
+            "jump",
+            "run",
+            "platform"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "cosmic-cleaner",
+      "name": "Cosmic Cleaner",
+      "category": "3d",
+      "path": "games/3d/cosmic-cleaner/index.html",
+      "tech": "phaser",
+      "tags": [
+        "3d",
+        "space"
+      ],
+      "description": "3D space-junk vacuum-up game.",
+      "i18n": {
+        "fa": {
+          "name": "پاک‌ساز کیهانی",
+          "description": "زباله‌های فضایی را در محیطی سه‌بعدی جمع‌آوری کن.",
+          "category": "3d",
+          "tags": [
+            "3d",
+            "فضایی"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "cricket-123",
+      "name": "Cricket 1-2-3",
+      "category": "sports",
+      "path": "games/sports/cricket-123/index.html",
+      "tech": "phaser",
+      "tags": [
+        "cricket",
+        "reflex"
+      ],
+      "description": "Bat through fast deliveries.",
+      "i18n": {
+        "fa": {
+          "name": "کریکت ۱-۲-۳",
+          "description": "با ضربه‌های دقیق، توپ‌های سریع را بزن.",
+          "category": "ورزشی",
+          "tags": [
+            "cricket",
+            "reflex"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "crossy-road",
+      "name": "Crossy Road",
+      "category": "arcade",
+      "path": "games/arcade/crossy-road/index.html",
+      "tech": "three",
+      "tags": [
+        "frogger",
+        "endless"
+      ],
+      "description": "Hop across roads, rivers, and rails.",
+      "i18n": {
+        "fa": {
+          "name": "عبور از جاده",
+          "description": "از جاده‌ها، رودخانه‌ها و ریل‌ها عبور کن.",
+          "category": "آرکید",
+          "tags": [
+            "frogger",
+            "endless"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "crowd-control",
+      "name": "Crowd Control",
+      "category": "arcade",
+      "path": "games/arcade/crowd-control/index.html",
+      "tech": "phaser",
+      "tags": [
+        "growing",
+        "io-style"
+      ],
+      "description": "Steer your growing crowd through obstacles.",
+      "i18n": {
+        "fa": {
+          "name": "هدایت جمعیت",
+          "description": "جمعیت در حال رشدت را از میان موانع هدایت کن.",
+          "category": "آرکید",
+          "tags": [
+            "growing",
+            "io-style"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "curve-snake",
+      "name": "Curve Snake",
+      "category": "arcade",
+      "path": "games/arcade/curve-snake/index.html",
+      "tech": "html",
+      "tags": [
+        "snake",
+        "trail"
+      ],
+      "description": "Snake-style game with smooth curve trails.",
+      "i18n": {
+        "fa": {
+          "name": "مار منحنی",
+          "description": "در سبک بازی مار حرکت کن و مسیرهای منحنی بساز.",
+          "category": "آرکید",
+          "tags": [
+            "مار",
+            "trail"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "cut-rope",
+      "name": "Cut the Rope",
+      "category": "puzzle",
+      "path": "games/puzzle/cut-rope/index.html",
+      "tech": "phaser",
+      "tags": [
+        "physics",
+        "slice"
+      ],
+      "description": "Slice ropes to land the candy in the goal.",
+      "i18n": {
+        "fa": {
+          "name": "طناب را ببر",
+          "description": "طناب‌ها را ببر تا آب‌نبات به مقصد برسد.",
+          "category": "معمایی",
+          "tags": [
+            "فیزیک",
+            "slice"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "demon",
+      "name": "Demon",
+      "category": "arcade",
+      "path": "games/arcade/demon/index.html",
+      "tech": "phaser",
+      "tags": [
+        "survival",
+        "dark"
+      ],
+      "description": "Survive a horde of demonic enemies.",
+      "i18n": {
+        "fa": {
+          "name": "دیو",
+          "description": "در برابر موجی از دشمنان اهریمنی زنده بمان.",
+          "category": "آرکید",
+          "tags": [
+            "survival",
+            "dark"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "devil-king",
+      "name": "Devil King",
+      "category": "platformer",
+      "path": "games/platformer/devil-king/index.html",
+      "tech": "phaser",
+      "tags": [
+        "challenge",
+        "jump"
+      ],
+      "description": "Hop hazards in a devilish trial run.",
+      "i18n": {
+        "fa": {
+          "name": "شاه شیطان",
+          "description": "در یک چالش شیطانی از موانع بپر و عبور کن.",
+          "category": "سکوبازی",
+          "tags": [
+            "challenge",
+            "jump"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "dodge-enemy",
+      "name": "Dodge Enemy",
+      "category": "arcade",
+      "path": "games/arcade/dodge-enemy/index.html",
+      "tech": "phaser",
+      "tags": [
+        "dodge",
+        "reflex"
+      ],
+      "description": "Slip past charging enemies.",
+      "i18n": {
+        "fa": {
+          "name": "جاخالی از دشمن",
+          "description": "از دشمنانی که به سمتت یورش می‌آورند جاخالی بده.",
+          "category": "آرکید",
+          "tags": [
+            "dodge",
+            "reflex"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "dodge-master",
+      "name": "Dodge Master",
+      "category": "arcade",
+      "path": "games/arcade/dodge-master/index.html",
+      "tech": "phaser",
+      "tags": [
+        "endless",
+        "dodge"
+      ],
+      "description": "Endless dodging at increasing speed.",
+      "i18n": {
+        "fa": {
+          "name": "استاد جاخالی",
+          "description": "در بازی بی‌پایان با سرعت فزاینده از موانع دوری کن.",
+          "category": "آرکید",
+          "tags": [
+            "endless",
+            "dodge"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "doodle-jump",
+      "name": "Doodle Jump",
+      "category": "platformer",
+      "path": "games/platformer/doodle-jump/index.html",
+      "tech": "phaser",
+      "tags": [
+        "vertical",
+        "jump",
+        "classic"
+      ],
+      "description": "Jump from platform to platform — go higher.",
+      "i18n": {
+        "fa": {
+          "name": "پرش دودلی",
+          "description": "از سکویی به سکوی دیگر بپر و تا جای ممکن بالا برو.",
+          "category": "سکوبازی",
+          "tags": [
+            "vertical",
+            "jump",
+            "کلاسیک"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "dream-weaver",
+      "name": "Dream Weaver",
+      "category": "arcade",
+      "path": "games/arcade/dream-weaver/index.html",
+      "tech": "phaser",
+      "tags": [
+        "chill",
+        "trail"
+      ],
+      "description": "Weave glowing trails through a dreamscape.",
+      "i18n": {
+        "fa": {
+          "name": "بافنده رویا",
+          "description": "در دنیایی رویایی، مسیرهای نورانی ترسیم کن.",
+          "category": "آرکید",
+          "tags": [
+            "chill",
+            "trail"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "ellars",
+      "name": "Ellars",
+      "category": "arcade",
+      "path": "games/arcade/ellars/index.html",
+      "tech": "phaser",
+      "tags": [
+        "abstract",
+        "dodge"
+      ],
+      "description": "Surreal arcade dodger.",
+      "i18n": {
+        "fa": {
+          "name": "الارس",
+          "description": "در این بازی آرکید سورئال از موانع جاخالی بده.",
+          "category": "آرکید",
+          "tags": [
+            "abstract",
+            "dodge"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "endless-mafia",
+      "name": "Endless Mafia",
+      "category": "arcade",
+      "path": "games/arcade/endless-mafia/index.html",
+      "tech": "phaser",
+      "tags": [
+        "brawler",
+        "endless"
+      ],
+      "description": "Brawl through endless waves of mafia thugs.",
+      "i18n": {
+        "fa": {
+          "name": "مافیای بی‌پایان",
+          "description": "با موج‌های بی‌پایان خلافکاران مافیا مبارزه کن.",
+          "category": "آرکید",
+          "tags": [
+            "brawler",
+            "endless"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "endless-runner",
+      "name": "Endless Runner",
+      "category": "racing",
+      "path": "games/racing/endless-runner/index.html",
+      "tech": "phaser",
+      "tags": [
+        "runner",
+        "endless"
+      ],
+      "description": "Run forever. Dodge everything.",
+      "i18n": {
+        "fa": {
+          "name": "دونده بی‌پایان",
+          "description": "تا می‌توانی بدو و از همه موانع دوری کن.",
+          "category": "مسابقه‌ای",
+          "tags": [
+            "runner",
+            "endless"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "fighter-fury",
+      "name": "Fighter Fury",
+      "category": "shooter",
+      "path": "games/shooter/fighter-fury/index.html",
+      "tech": "phaser",
+      "tags": [
+        "jet",
+        "side-scroll"
+      ],
+      "description": "Side-scrolling jet shooter.",
+      "i18n": {
+        "fa": {
+          "name": "خشم جنگنده",
+          "description": "در یک تیراندازی جتِ پیمایش جانبی بجنگ.",
+          "category": "تیراندازی",
+          "tags": [
+            "jet",
+            "side-scroll"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "fighter-jet",
+      "name": "Fighter Jet",
+      "category": "shooter",
+      "path": "games/shooter/fighter-jet/index.html",
+      "tech": "phaser",
+      "tags": [
+        "jet",
+        "top-down"
+      ],
+      "description": "Top-down jet combat.",
+      "i18n": {
+        "fa": {
+          "name": "جنگنده جت",
+          "description": "در نبرد هوایی از نمای بالا شرکت کن.",
+          "category": "تیراندازی",
+          "tags": [
+            "jet",
+            "top-down"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "flappy",
+      "name": "Flappy",
+      "category": "arcade",
+      "path": "games/arcade/flappy/index.html",
+      "tech": "phaser",
+      "tags": [
+        "tap",
+        "one-button",
+        "classic"
+      ],
+      "description": "Tap to flap. Don't hit the pipes.",
+      "i18n": {
+        "fa": {
+          "name": "فِلَپی",
+          "description": "برای بال زدن ضربه بزن و مراقب لوله‌ها باش.",
+          "category": "آرکید",
+          "tags": [
+            "tap",
+            "one-button",
+            "کلاسیک"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "flip-jump",
+      "name": "Flip Jump",
+      "category": "platformer",
+      "path": "games/platformer/flip-jump/index.html",
+      "tech": "phaser",
+      "tags": [
+        "gravity",
+        "flip"
+      ],
+      "description": "Flip the world to land safely.",
+      "i18n": {
+        "fa": {
+          "name": "پرش وارونه",
+          "description": "جهان را بچرخان تا سالم فرود بیایی.",
+          "category": "سکوبازی",
+          "tags": [
+            "gravity",
+            "flip"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "fly-monkey",
+      "name": "Fly Monkey",
+      "category": "arcade",
+      "path": "games/arcade/fly-monkey/index.html",
+      "tech": "phaser",
+      "tags": [
+        "swing",
+        "jungle"
+      ],
+      "description": "Swing the monkey through the canopy.",
+      "i18n": {
+        "fa": {
+          "name": "میمون پرنده",
+          "description": "میمون را در میان شاخه‌های جنگل به پرواز درآور.",
+          "category": "آرکید",
+          "tags": [
+            "swing",
+            "jungle"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "football",
+      "name": "Football",
+      "category": "sports",
+      "path": "games/sports/football/index.html",
+      "tech": "html",
+      "tags": [
+        "soccer",
+        "goals"
+      ],
+      "description": "Score goals in a fast-paced footy match.",
+      "i18n": {
+        "fa": {
+          "name": "فوتبال",
+          "description": "در یک مسابقه سریع فوتبال گل بزن.",
+          "category": "ورزشی",
+          "tags": [
+            "soccer",
+            "goals"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "forest-runner",
+      "name": "Forest Runner",
+      "category": "racing",
+      "path": "games/racing/forest-runner/index.html",
+      "tech": "phaser",
+      "tags": [
+        "runner",
+        "forest"
+      ],
+      "description": "Sprint through a forest — dodge logs and gaps.",
+      "i18n": {
+        "fa": {
+          "name": "دونده جنگل",
+          "description": "در جنگل بدو و از کنده‌ها و شکاف‌ها بگذر.",
+          "category": "مسابقه‌ای",
+          "tags": [
+            "runner",
+            "forest"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "four-dots",
+      "name": "Four Dots",
+      "category": "puzzle",
+      "path": "games/puzzle/four-dots/index.html",
+      "tech": "phaser",
+      "tags": [
+        "pattern",
+        "tap"
+      ],
+      "description": "Tap dots in the right pattern.",
+      "i18n": {
+        "fa": {
+          "name": "چهار نقطه",
+          "description": "نقطه‌ها را با الگوی درست لمس کن.",
+          "category": "معمایی",
+          "tags": [
+            "pattern",
+            "tap"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "fruit-basket",
+      "name": "Fruit Basket",
+      "category": "casual",
+      "path": "games/casual/fruit-basket/index.html",
+      "tech": "phaser",
+      "tags": [
+        "catch",
+        "fruits",
+        "cute"
+      ],
+      "description": "Catch falling fruits in your basket.",
+      "i18n": {
+        "fa": {
+          "name": "سبد میوه",
+          "description": "میوه‌های در حال سقوط را در سبدت بگیر.",
+          "category": "تفننی",
+          "tags": [
+            "catch",
+            "fruits",
+            "cute"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "fruit-cosmics",
+      "name": "Fruit Cosmics",
+      "category": "casual",
+      "path": "games/casual/fruit-cosmics/index.html",
+      "tech": "phaser",
+      "tags": [
+        "fruits",
+        "slash"
+      ],
+      "description": "Cosmic-themed fruit smasher.",
+      "i18n": {
+        "fa": {
+          "name": "میوه‌های کیهانی",
+          "description": "میوه‌ها را در این بازی با حال‌وهوای فضایی خرد کن.",
+          "category": "تفننی",
+          "tags": [
+            "fruits",
+            "slash"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "fruit-merge",
+      "name": "Fruit Merge",
+      "category": "casual",
+      "path": "games/casual/fruit-merge/index.html",
+      "tech": "html",
+      "tags": [
+        "merge",
+        "suika",
+        "drop"
+      ],
+      "description": "Drop fruits — merge same kinds to evolve.",
+      "i18n": {
+        "fa": {
+          "name": "ترکیب میوه‌ها",
+          "description": "میوه‌ها را رها کن و میوه‌های یکسان را با هم ترکیب کن.",
+          "category": "تفننی",
+          "tags": [
+            "ترکیب",
+            "suika",
+            "drop"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "luma-bounce",
+      "name": "LumaBounce",
+      "category": "arcade",
+      "path": "games/arcade/luma-bounce/index.html",
+      "tech": "phaser",
+      "tags": [
+        "bounce",
+        "reflex"
+      ],
+      "description": "Bouncy reflex arcade game.",
+      "i18n": {
+        "fa": {
+          "name": "لوما بانس",
+          "description": "در این بازی آرکید با واکنش سریع جهش کن.",
+          "category": "آرکید",
+          "tags": [
+            "bounce",
+            "reflex"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "glass-step",
+      "name": "Glass Step",
+      "category": "arcade",
+      "path": "games/arcade/glass-step/index.html",
+      "tech": "phaser",
+      "tags": [
+        "squid-game",
+        "pick"
+      ],
+      "description": "Pick the safe glass tile. Don't fall.",
+      "i18n": {
+        "fa": {
+          "name": "قدم شیشه‌ای",
+          "description": "کاشی شیشه‌ای امن را انتخاب کن و سقوط نکن.",
+          "category": "آرکید",
+          "tags": [
+            "squid-game",
+            "pick"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "gunman",
+      "name": "Gunman",
+      "category": "shooter",
+      "path": "games/shooter/gunman/index.html",
+      "tech": "phaser",
+      "tags": [
+        "western",
+        "quickdraw"
+      ],
+      "description": "Quick-draw gunfight game.",
+      "i18n": {
+        "fa": {
+          "name": "تفنگدار",
+          "description": "در یک دوئل سریع، زودتر از حریف شلیک کن.",
+          "category": "تیراندازی",
+          "tags": [
+            "western",
+            "quickdraw"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "gun-run",
+      "name": "Gun Run",
+      "category": "shooter",
+      "path": "games/shooter/gun-run/index.html",
+      "tech": "phaser",
+      "tags": [
+        "run-gun",
+        "side-scroll"
+      ],
+      "description": "Run-and-gun side-scroller.",
+      "i18n": {
+        "fa": {
+          "name": "فرار مسلحانه",
+          "description": "در یک بازی تیراندازی پیمایش جانبی بدو و شلیک کن.",
+          "category": "تیراندازی",
+          "tags": [
+            "run-gun",
+            "side-scroll"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "hex-puzzle",
+      "name": "Hex Puzzle",
+      "category": "puzzle",
+      "path": "games/puzzle/hex-puzzle/index.html",
+      "tech": "html",
+      "tags": [
+        "hex",
+        "blocks"
+      ],
+      "description": "Place hex blocks to clear the board.",
+      "i18n": {
+        "fa": {
+          "name": "معمای شش‌ضلعی",
+          "description": "بلوک‌های شش‌ضلعی را بچین و صفحه را پاک کن.",
+          "category": "معمایی",
+          "tags": [
+            "hex",
+            "blocks"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "hungry-player",
+      "name": "Hungry Player",
+      "category": "arcade",
+      "path": "games/arcade/hungry-player/index.html",
+      "tech": "phaser",
+      "tags": [
+        "eat",
+        "grow"
+      ],
+      "description": "Gobble food, dodge hazards, grow.",
+      "i18n": {
+        "fa": {
+          "name": "بازیکن گرسنه",
+          "description": "غذا بخور، از خطرها دوری کن و بزرگ‌تر شو.",
+          "category": "آرکید",
+          "tags": [
+            "eat",
+            "grow"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "jump-dot",
+      "name": "Jump Dot",
+      "category": "arcade",
+      "path": "games/arcade/jump-dot/index.html",
+      "tech": "phaser",
+      "tags": [
+        "one-button",
+        "timing"
+      ],
+      "description": "Tap to jump the dot over rotating hazards.",
+      "i18n": {
+        "fa": {
+          "name": "پرش نقطه",
+          "description": "برای پرش نقطه از روی موانع چرخان ضربه بزن.",
+          "category": "آرکید",
+          "tags": [
+            "one-button",
+            "timing"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "kaiju-krush",
+      "name": "Kaiju Krush",
+      "category": "arcade",
+      "path": "games/arcade/kaiju-krush/index.html",
+      "tech": "phaser",
+      "tags": [
+        "destruction",
+        "kaiju"
+      ],
+      "description": "Smash through the city as a giant kaiju.",
+      "i18n": {
+        "fa": {
+          "name": "هیولای غول‌پیکر",
+          "description": "در نقش یک هیولای عظیم‌الجثه شهر را ویران کن.",
+          "category": "آرکید",
+          "tags": [
+            "destruction",
+            "kaiju"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "laser-bounce",
+      "name": "Laser Bounce",
+      "category": "puzzle",
+      "path": "games/puzzle/laser-bounce/index.html",
+      "tech": "phaser",
+      "tags": [
+        "lasers",
+        "reflect",
+        "logic"
+      ],
+      "description": "Reflect lasers to hit all targets.",
+      "i18n": {
+        "fa": {
+          "name": "بازتاب لیزر",
+          "description": "پرتوهای لیزر را بازتاب بده تا همه هدف‌ها را بزنی.",
+          "category": "معمایی",
+          "tags": [
+            "lasers",
+            "reflect",
+            "منطقی"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "link",
+      "name": "Link",
+      "category": "puzzle",
+      "path": "games/puzzle/link/index.html",
+      "tech": "phaser",
+      "tags": [
+        "match",
+        "mahjong"
+      ],
+      "description": "Link matching tiles by shortest path.",
+      "i18n": {
+        "fa": {
+          "name": "پیوند",
+          "description": "کاشی‌های یکسان را با کوتاه‌ترین مسیر به هم وصل کن.",
+          "category": "معمایی",
+          "tags": [
+            "match",
+            "mahjong"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "ludo",
+      "name": "Ludo",
+      "category": "board",
+      "path": "games/board/ludo/index.html",
+      "tech": "html",
+      "tags": [
+        "dice",
+        "classic",
+        "family"
+      ],
+      "description": "Classic Ludo — you vs 3 AI opponents.",
+      "i18n": {
+        "fa": {
+          "name": "لودو",
+          "description": "لودوی کلاسیک را در برابر سه حریف رایانه‌ای بازی کن.",
+          "category": "board",
+          "tags": [
+            "dice",
+            "کلاسیک",
+            "family"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "mario",
+      "name": "Mario-Like",
+      "category": "platformer",
+      "path": "games/platformer/mario/index.html",
+      "tech": "phaser",
+      "tags": [
+        "platformer",
+        "retro"
+      ],
+      "description": "Side-scrolling platformer adventure.",
+      "i18n": {
+        "fa": {
+          "name": "ماجراجویی سکوبازی",
+          "description": "در یک ماجراجویی پیمایش جانبی بدو و بپر.",
+          "category": "سکوبازی",
+          "tags": [
+            "سکوبازی",
+            "رترو"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "math-quest",
+      "name": "Math Quest",
+      "category": "word-quiz",
+      "path": "games/word-quiz/math-quest/index.html",
+      "tech": "phaser",
+      "tags": [
+        "math",
+        "education",
+        "quick"
+      ],
+      "description": "Speed math challenge.",
+      "i18n": {
+        "fa": {
+          "name": "ماموریت ریاضی",
+          "description": "در یک چالش سریع، مسئله‌های ریاضی را حل کن.",
+          "category": "word-quiz",
+          "tags": [
+            "ریاضی",
+            "education",
+            "quick"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "memory",
+      "name": "Memory",
+      "category": "puzzle",
+      "path": "games/puzzle/memory/index.html",
+      "tech": "phaser",
+      "tags": [
+        "memory",
+        "cards",
+        "classic"
+      ],
+      "description": "Flip cards. Find pairs.",
+      "i18n": {
+        "fa": {
+          "name": "حافظه",
+          "description": "کارت‌ها را برگردان و جفت‌های یکسان را پیدا کن.",
+          "category": "معمایی",
+          "tags": [
+            "حافظه",
+            "کارت",
+            "کلاسیک"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "memory-cards",
+      "name": "Memory Cards",
+      "category": "puzzle",
+      "path": "games/puzzle/memory-cards/index.html",
+      "tech": "phaser",
+      "tags": [
+        "memory",
+        "cards"
+      ],
+      "description": "Card-matching memory test.",
+      "i18n": {
+        "fa": {
+          "name": "کارت‌های حافظه",
+          "description": "حافظه‌ات را با پیدا کردن جفت کارت‌های یکسان امتحان کن.",
+          "category": "معمایی",
+          "tags": [
+            "حافظه",
+            "کارت"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "number-merge",
+      "name": "Number Merge",
+      "category": "puzzle",
+      "path": "games/puzzle/number-merge/index.html",
+      "tech": "phaser",
+      "tags": [
+        "merge",
+        "numbers"
+      ],
+      "description": "Merge same numbers, climb the score.",
+      "i18n": {
+        "fa": {
+          "name": "ترکیب اعداد",
+          "description": "عددهای یکسان را ترکیب کن و امتیازت را بالا ببر.",
+          "category": "معمایی",
+          "tags": [
+            "ترکیب",
+            "اعداد"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "one-car",
+      "name": "One Car",
+      "category": "racing",
+      "path": "games/racing/one-car/index.html",
+      "tech": "phaser",
+      "tags": [
+        "traffic",
+        "reflex"
+      ],
+      "description": "Steer one car through dense traffic.",
+      "i18n": {
+        "fa": {
+          "name": "یک خودرو",
+          "description": "یک خودرو را در میان ترافیک سنگین هدایت کن.",
+          "category": "مسابقه‌ای",
+          "tags": [
+            "traffic",
+            "reflex"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "orbital-outpost",
+      "name": "Orbital Outpost",
+      "category": "3d",
+      "path": "games/3d/orbital-outpost/index.html",
+      "tech": "phaser",
+      "tags": [
+        "3d",
+        "space",
+        "defense"
+      ],
+      "description": "3D space-station defense.",
+      "i18n": {
+        "fa": {
+          "name": "پایگاه مداری",
+          "description": "در یک محیط سه‌بعدی از ایستگاه فضایی دفاع کن.",
+          "category": "3d",
+          "tags": [
+            "3d",
+            "فضایی",
+            "defense"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "pacman",
+      "name": "Pac-Man",
+      "category": "arcade",
+      "path": "games/arcade/pacman/index.html",
+      "tech": "phaser",
+      "tags": [
+        "maze",
+        "classic"
+      ],
+      "description": "Eat dots. Avoid ghosts.",
+      "i18n": {
+        "fa": {
+          "name": "پک‌من",
+          "description": "نقطه‌ها را بخور و از روح‌ها دوری کن.",
+          "category": "آرکید",
+          "tags": [
+            "هزارتو",
+            "کلاسیک"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "pairing",
+      "name": "Pairing",
+      "category": "puzzle",
+      "path": "games/puzzle/pairing/index.html",
+      "tech": "phaser",
+      "tags": [
+        "match",
+        "quick"
+      ],
+      "description": "Pair up matching items quickly.",
+      "i18n": {
+        "fa": {
+          "name": "جفت‌یابی",
+          "description": "با سرعت، موارد همسان را جفت کن.",
+          "category": "معمایی",
+          "tags": [
+            "match",
+            "quick"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "parkour",
+      "name": "Parkour",
+      "category": "platformer",
+      "path": "games/platformer/parkour/index.html",
+      "tech": "phaser",
+      "tags": [
+        "parkour",
+        "run"
+      ],
+      "description": "Wall-run, slide, and vault forward.",
+      "i18n": {
+        "fa": {
+          "name": "پارکور",
+          "description": "از دیوار بدو، سُر بخور و از موانع بپر.",
+          "category": "سکوبازی",
+          "tags": [
+            "parkour",
+            "run"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "pathfinder",
+      "name": "Pathfinder",
+      "category": "puzzle",
+      "path": "games/puzzle/pathfinder/index.html",
+      "tech": "phaser",
+      "tags": [
+        "maze",
+        "path"
+      ],
+      "description": "Solve maze paths under time pressure.",
+      "i18n": {
+        "fa": {
+          "name": "مسیر‌یاب",
+          "description": "مسیرهای هزارتو را پیش از پایان زمان پیدا کن.",
+          "category": "معمایی",
+          "tags": [
+            "هزارتو",
+            "path"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "perfect-square",
+      "name": "Perfect Square",
+      "category": "puzzle",
+      "path": "games/puzzle/perfect-square/index.html",
+      "tech": "phaser",
+      "tags": [
+        "timing",
+        "precision"
+      ],
+      "description": "Tap when the square aligns perfectly.",
+      "i18n": {
+        "fa": {
+          "name": "مربع بی‌نقص",
+          "description": "در لحظه‌ای که مربع کاملاً تراز شد ضربه بزن.",
+          "category": "معمایی",
+          "tags": [
+            "timing",
+            "precision"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "pirates",
+      "name": "Pirates",
+      "category": "arcade",
+      "path": "games/arcade/pirates/index.html",
+      "tech": "phaser",
+      "tags": [
+        "pirates",
+        "ships"
+      ],
+      "description": "Sail and battle on the high seas.",
+      "i18n": {
+        "fa": {
+          "name": "دزدان دریایی",
+          "description": "در دریاهای آزاد کشتی‌رانی و نبرد کن.",
+          "category": "آرکید",
+          "tags": [
+            "pirates",
+            "ships"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "planet-visitor",
+      "name": "Planet Visitor",
+      "category": "3d",
+      "path": "games/3d/planet-visitor/index.html",
+      "tech": "phaser",
+      "tags": [
+        "3d",
+        "space",
+        "explore"
+      ],
+      "description": "Land on alien planets in 3D.",
+      "i18n": {
+        "fa": {
+          "name": "بازدیدکننده سیاره",
+          "description": "در محیطی سه‌بعدی روی سیاره‌های بیگانه فرود بیا.",
+          "category": "3d",
+          "tags": [
+            "3d",
+            "فضایی",
+            "explore"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "planet-war",
+      "name": "Planet War",
+      "category": "3d",
+      "path": "games/3d/planet-war/index.html",
+      "tech": "phaser",
+      "tags": [
+        "3d",
+        "space",
+        "defense"
+      ],
+      "description": "Defend your planet from cosmic invaders.",
+      "i18n": {
+        "fa": {
+          "name": "جنگ سیاره‌ای",
+          "description": "از سیاره‌ات در برابر مهاجمان کیهانی دفاع کن.",
+          "category": "3d",
+          "tags": [
+            "3d",
+            "فضایی",
+            "defense"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "projectile-enemy",
+      "name": "Projectile Enemy",
+      "category": "shooter",
+      "path": "games/shooter/projectile-enemy/index.html",
+      "tech": "phaser",
+      "tags": [
+        "bullet-hell",
+        "reflex"
+      ],
+      "description": "Dodge and counter ranged enemies.",
+      "i18n": {
+        "fa": {
+          "name": "دشمن پرتابه‌ای",
+          "description": "از حمله‌های دوربرد جاخالی بده و ضدحمله بزن.",
+          "category": "تیراندازی",
+          "tags": [
+            "bullet-hell",
+            "reflex"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "quiz",
+      "name": "Quiz",
+      "category": "word-quiz",
+      "path": "games/word-quiz/quiz/index.html",
+      "tech": "phaser",
+      "tags": [
+        "trivia",
+        "education"
+      ],
+      "description": "Test your knowledge across categories.",
+      "i18n": {
+        "fa": {
+          "name": "آزمون اطلاعات عمومی",
+          "description": "دانشت را در دسته‌بندی‌های گوناگون امتحان کن.",
+          "category": "word-quiz",
+          "tags": [
+            "trivia",
+            "education"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "red-light-green-light",
+      "name": "Red Light, Green Light",
+      "category": "arcade",
+      "path": "games/arcade/red-light-green-light/index.html",
+      "tech": "phaser",
+      "tags": [
+        "squid-game",
+        "reflex"
+      ],
+      "description": "Move on green. Freeze on red.",
+      "i18n": {
+        "fa": {
+          "name": "چراغ قرمز، چراغ سبز",
+          "description": "با سبز حرکت کن و با قرمز بی‌حرکت بمان.",
+          "category": "آرکید",
+          "tags": [
+            "squid-game",
+            "reflex"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "road-cross",
+      "name": "Road Cross",
+      "category": "arcade",
+      "path": "games/arcade/road-cross/index.html",
+      "tech": "phaser",
+      "tags": [
+        "frogger",
+        "timing"
+      ],
+      "description": "Cross busy roads safely.",
+      "i18n": {
+        "fa": {
+          "name": "عبور از خیابان",
+          "description": "با احتیاط از خیابان‌های شلوغ عبور کن.",
+          "category": "آرکید",
+          "tags": [
+            "frogger",
+            "timing"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "road-fighter",
+      "name": "Road Fighter",
+      "category": "racing",
+      "path": "games/racing/road-fighter/index.html",
+      "tech": "phaser",
+      "tags": [
+        "traffic",
+        "race",
+        "retro"
+      ],
+      "description": "Top-down race weaving through traffic.",
+      "i18n": {
+        "fa": {
+          "name": "جنگجوی جاده",
+          "description": "در مسابقه‌ای از نمای بالا از میان ترافیک سبقت بگیر.",
+          "category": "مسابقه‌ای",
+          "tags": [
+            "traffic",
+            "race",
+            "رترو"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "robot-destruction",
+      "name": "Robot Destruction",
+      "category": "shooter",
+      "path": "games/shooter/robot-destruction/index.html",
+      "tech": "phaser",
+      "tags": [
+        "robots",
+        "blaster"
+      ],
+      "description": "Blast incoming robots to scrap.",
+      "i18n": {
+        "fa": {
+          "name": "نابودی ربات‌ها",
+          "description": "ربات‌های مهاجم را منفجر و نابود کن.",
+          "category": "تیراندازی",
+          "tags": [
+            "robots",
+            "blaster"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "screw-master",
+      "name": "Screw Master",
+      "category": "puzzle",
+      "path": "games/puzzle/screw-master/index.html",
+      "tech": "phaser",
+      "tags": [
+        "sort",
+        "mechanical"
+      ],
+      "description": "Unscrew and sort the metal pieces.",
+      "i18n": {
+        "fa": {
+          "name": "استاد پیچ‌ها",
+          "description": "قطعات فلزی را باز کن و مرتب بچین.",
+          "category": "معمایی",
+          "tags": [
+            "sort",
+            "mechanical"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "shadow-runner",
+      "name": "Shadow Runner",
+      "category": "racing",
+      "path": "games/racing/shadow-runner/index.html",
+      "tech": "phaser",
+      "tags": [
+        "runner",
+        "dark"
+      ],
+      "description": "Sprint through a shadow world.",
+      "i18n": {
+        "fa": {
+          "name": "دونده سایه‌ها",
+          "description": "در دنیایی سایه‌وار با سرعت بدو.",
+          "category": "مسابقه‌ای",
+          "tags": [
+            "runner",
+            "dark"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "shadow-shooter",
+      "name": "Shadow Shooter",
+      "category": "shooter",
+      "path": "games/shooter/shadow-shooter/index.html",
+      "tech": "phaser",
+      "tags": [
+        "stealth",
+        "shooter"
+      ],
+      "description": "Pick off shadow enemies from cover.",
+      "i18n": {
+        "fa": {
+          "name": "تیرانداز سایه‌ها",
+          "description": "از پشت پناهگاه، دشمنان سایه‌ای را هدف بگیر.",
+          "category": "تیراندازی",
+          "tags": [
+            "stealth",
+            "تیراندازی"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "shape-collector",
+      "name": "Shape Collector",
+      "category": "arcade",
+      "path": "games/arcade/shape-collector/index.html",
+      "tech": "phaser",
+      "tags": [
+        "shapes",
+        "match"
+      ],
+      "description": "Catch only the matching shapes.",
+      "i18n": {
+        "fa": {
+          "name": "جمع‌آوری شکل‌ها",
+          "description": "فقط شکل‌های مطابق با الگو را بگیر.",
+          "category": "آرکید",
+          "tags": [
+            "shapes",
+            "match"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "shape-fitter",
+      "name": "Shape Fitter",
+      "category": "puzzle",
+      "path": "games/puzzle/shape-fitter/index.html",
+      "tech": "phaser",
+      "tags": [
+        "shapes",
+        "kids"
+      ],
+      "description": "Fit shapes into the right slots.",
+      "i18n": {
+        "fa": {
+          "name": "جورچین شکل‌ها",
+          "description": "هر شکل را در جایگاه درست قرار بده.",
+          "category": "معمایی",
+          "tags": [
+            "shapes",
+            "kids"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "shoot-enemy",
+      "name": "Shoot Enemy",
+      "category": "shooter",
+      "path": "games/shooter/shoot-enemy/index.html",
+      "tech": "phaser",
+      "tags": [
+        "aim",
+        "reflex"
+      ],
+      "description": "Pick off enemies before they reach you.",
+      "i18n": {
+        "fa": {
+          "name": "شلیک به دشمن",
+          "description": "پیش از رسیدن دشمنان، آن‌ها را هدف بگیر و از بین ببر.",
+          "category": "تیراندازی",
+          "tags": [
+            "aim",
+            "reflex"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "shooter",
+      "name": "Shooter",
+      "category": "shooter",
+      "path": "games/shooter/shooter/index.html",
+      "tech": "phaser",
+      "tags": [
+        "arena",
+        "top-down"
+      ],
+      "description": "Top-down arena shooter.",
+      "i18n": {
+        "fa": {
+          "name": "تیرانداز",
+          "description": "در میدان نبرد از نمای بالا با دشمنان بجنگ.",
+          "category": "تیراندازی",
+          "tags": [
+            "arena",
+            "top-down"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "signal-circuit",
+      "name": "Signal Circuit",
+      "category": "puzzle",
+      "path": "games/puzzle/signal-circuit/index.html",
+      "tech": "phaser",
+      "tags": [
+        "logic",
+        "circuit"
+      ],
+      "description": "Route signals through circuit gates.",
+      "i18n": {
+        "fa": {
+          "name": "مدار سیگنال",
+          "description": "سیگنال‌ها را از میان دروازه‌های مدار هدایت کن.",
+          "category": "معمایی",
+          "tags": [
+            "منطقی",
+            "circuit"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "sky-high",
+      "name": "Sky High",
+      "category": "arcade",
+      "path": "games/arcade/sky-high/index.html",
+      "tech": "phaser",
+      "tags": [
+        "climb",
+        "endless"
+      ],
+      "description": "Climb endlessly into the sky.",
+      "i18n": {
+        "fa": {
+          "name": "اوج آسمان",
+          "description": "بی‌وقفه به سمت آسمان بالا برو.",
+          "category": "آرکید",
+          "tags": [
+            "climb",
+            "endless"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "slide-puzzle",
+      "name": "Slide Puzzle",
+      "category": "puzzle",
+      "path": "games/puzzle/slide-puzzle/index.html",
+      "tech": "phaser",
+      "tags": [
+        "sliding",
+        "classic"
+      ],
+      "description": "Reassemble the image by sliding tiles.",
+      "i18n": {
+        "fa": {
+          "name": "پازل کشویی",
+          "description": "با جابه‌جایی کاشی‌ها تصویر را دوباره بساز.",
+          "category": "معمایی",
+          "tags": [
+            "sliding",
+            "کلاسیک"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "snake",
+      "name": "Snake",
+      "category": "arcade",
+      "path": "games/arcade/snake/index.html",
+      "tech": "phaser",
+      "tags": [
+        "snake",
+        "classic"
+      ],
+      "description": "Eat. Grow. Don't hit yourself.",
+      "i18n": {
+        "fa": {
+          "name": "مار",
+          "description": "غذا بخور، رشد کن و به خودت برخورد نکن.",
+          "category": "آرکید",
+          "tags": [
+            "مار",
+            "کلاسیک"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "snake-and-ladder",
+      "name": "Snake & Ladder",
+      "category": "board",
+      "path": "games/board/snake-and-ladder/index.html",
+      "tech": "phaser",
+      "tags": [
+        "dice",
+        "family",
+        "classic"
+      ],
+      "description": "Roll the dice. Climb. Slide. Win.",
+      "i18n": {
+        "fa": {
+          "name": "مار و پله",
+          "description": "تاس بریز، از پله‌ها بالا برو و از مارها سر بخور.",
+          "category": "board",
+          "tags": [
+            "dice",
+            "family",
+            "کلاسیک"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "sniper",
+      "name": "Sniper",
+      "category": "shooter",
+      "path": "games/shooter/sniper/index.html",
+      "tech": "phaser",
+      "tags": [
+        "scope",
+        "precision"
+      ],
+      "description": "Steady your scope. One shot, one kill.",
+      "i18n": {
+        "fa": {
+          "name": "تک‌تیرانداز",
+          "description": "دوربین را ثابت نگه دار و با یک شلیک هدف را بزن.",
+          "category": "تیراندازی",
+          "tags": [
+            "scope",
+            "precision"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "space-fighter",
+      "name": "Space Fighter",
+      "category": "shooter",
+      "path": "games/shooter/space-fighter/index.html",
+      "tech": "phaser",
+      "tags": [
+        "space",
+        "dogfight"
+      ],
+      "description": "Dogfight through asteroid fields.",
+      "i18n": {
+        "fa": {
+          "name": "جنگنده فضایی",
+          "description": "در میدان‌های سیارکی وارد نبرد فضایی شو.",
+          "category": "تیراندازی",
+          "tags": [
+            "فضایی",
+            "dogfight"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "spaceman",
+      "name": "Spaceman",
+      "category": "arcade",
+      "path": "games/arcade/spaceman/index.html",
+      "tech": "phaser",
+      "tags": [
+        "space",
+        "float"
+      ],
+      "description": "Float and survive in zero gravity.",
+      "i18n": {
+        "fa": {
+          "name": "فضانورد",
+          "description": "در بی‌وزنی شناور بمان و زنده بمان.",
+          "category": "آرکید",
+          "tags": [
+            "فضایی",
+            "float"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "space-waves",
+      "name": "Space Waves",
+      "category": "arcade",
+      "path": "games/arcade/space-waves/index.html",
+      "tech": "phaser",
+      "tags": [
+        "space",
+        "wave"
+      ],
+      "description": "Surf waves of space debris.",
+      "i18n": {
+        "fa": {
+          "name": "موج‌های فضایی",
+          "description": "از میان موج‌های زباله فضایی عبور کن.",
+          "category": "آرکید",
+          "tags": [
+            "فضایی",
+            "wave"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "square-one",
+      "name": "Square One",
+      "category": "puzzle",
+      "path": "games/puzzle/square-one/index.html",
+      "tech": "phaser",
+      "tags": [
+        "sliding",
+        "minimal"
+      ],
+      "description": "Slide squares to clear the board.",
+      "i18n": {
+        "fa": {
+          "name": "مربع شماره یک",
+          "description": "مربع‌ها را جابه‌جا کن تا صفحه پاک شود.",
+          "category": "معمایی",
+          "tags": [
+            "sliding",
+            "minimal"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "stack-tower",
+      "name": "Stack Tower",
+      "category": "3d",
+      "path": "games/3d/stack-tower/index.html",
+      "tech": "three",
+      "tags": [
+        "3d",
+        "stack",
+        "timing"
+      ],
+      "description": "Stack 3D blocks for the highest tower.",
+      "i18n": {
+        "fa": {
+          "name": "برج‌سازی",
+          "description": "بلوک‌های سه‌بعدی را روی هم بچین و بلندترین برج را بساز.",
+          "category": "3d",
+          "tags": [
+            "3d",
+            "stack",
+            "timing"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "stick-game",
+      "name": "Stick Game",
+      "category": "arcade",
+      "path": "games/arcade/stick-game/index.html",
+      "tech": "phaser",
+      "tags": [
+        "stick",
+        "draw"
+      ],
+      "description": "Draw sticks to bridge gaps.",
+      "i18n": {
+        "fa": {
+          "name": "بازی چوب‌ها",
+          "description": "با رسم چوب، بین شکاف‌ها پل بساز.",
+          "category": "آرکید",
+          "tags": [
+            "stick",
+            "draw"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "stick-toss",
+      "name": "Stick Toss",
+      "category": "arcade",
+      "path": "games/arcade/stick-toss/index.html",
+      "tech": "phaser",
+      "tags": [
+        "aim",
+        "spin"
+      ],
+      "description": "Toss sticks at the spinning target.",
+      "i18n": {
+        "fa": {
+          "name": "پرتاب چوب",
+          "description": "چوب‌ها را به سمت هدف چرخان پرتاب کن.",
+          "category": "آرکید",
+          "tags": [
+            "aim",
+            "spin"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "straight-rush",
+      "name": "Straight Rush",
+      "category": "racing",
+      "path": "games/racing/straight-rush/index.html",
+      "tech": "phaser",
+      "tags": [
+        "sprint",
+        "reflex"
+      ],
+      "description": "Sprint forward — react to oncoming hazards.",
+      "i18n": {
+        "fa": {
+          "name": "یورش مستقیم",
+          "description": "با سرعت پیش برو و به موانع پیش رو واکنش نشان بده.",
+          "category": "مسابقه‌ای",
+          "tags": [
+            "sprint",
+            "reflex"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "survival-run",
+      "name": "Survival Run",
+      "category": "racing",
+      "path": "games/racing/survival-run/index.html",
+      "tech": "phaser",
+      "tags": [
+        "survival",
+        "runner"
+      ],
+      "description": "Outrun the danger as long as you can.",
+      "i18n": {
+        "fa": {
+          "name": "دویدن برای بقا",
+          "description": "تا جای ممکن از خطرها فرار کن.",
+          "category": "مسابقه‌ای",
+          "tags": [
+            "survival",
+            "runner"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "survivor",
+      "name": "Survivor",
+      "category": "shooter",
+      "path": "games/shooter/survivor/index.html",
+      "tech": "phaser",
+      "tags": [
+        "horde",
+        "survival",
+        "auto"
+      ],
+      "description": "Vampire-survivors-style horde survival.",
+      "i18n": {
+        "fa": {
+          "name": "بازمانده",
+          "description": "در برابر موج‌های بی‌پایان دشمنان زنده بمان.",
+          "category": "تیراندازی",
+          "tags": [
+            "horde",
+            "survival",
+            "auto"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "table-tennis",
+      "name": "Table Tennis",
+      "category": "sports",
+      "path": "games/sports/table-tennis/index.html",
+      "tech": "phaser",
+      "tags": [
+        "pong",
+        "sport"
+      ],
+      "description": "Volley the ping-pong ball.",
+      "i18n": {
+        "fa": {
+          "name": "تنیس روی میز",
+          "description": "توپ پینگ‌پنگ را با ضربه‌های رفت‌وبرگشتی برگردان.",
+          "category": "ورزشی",
+          "tags": [
+            "pong",
+            "sport"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "tap-target",
+      "name": "Tap Target",
+      "category": "arcade",
+      "path": "games/arcade/tap-target/index.html",
+      "tech": "phaser",
+      "tags": [
+        "tap",
+        "reflex"
+      ],
+      "description": "Tap targets before they vanish.",
+      "i18n": {
+        "fa": {
+          "name": "لمس هدف",
+          "description": "پیش از ناپدید شدن هدف‌ها، روی آن‌ها ضربه بزن.",
+          "category": "آرکید",
+          "tags": [
+            "tap",
+            "reflex"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "tee-shooter",
+      "name": "Tee Shooter",
+      "category": "shooter",
+      "path": "games/shooter/tee-shooter/index.html",
+      "tech": "phaser",
+      "tags": [
+        "aim",
+        "tee"
+      ],
+      "description": "Tee-up trick-shot shooter.",
+      "i18n": {
+        "fa": {
+          "name": "تیرانداز تی‌شات",
+          "description": "برای شلیک‌های نمایشی، توپ را روی پایه قرار بده و هدف بگیر.",
+          "category": "تیراندازی",
+          "tags": [
+            "aim",
+            "tee"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "tetris",
+      "name": "Tetris",
+      "category": "puzzle",
+      "path": "games/puzzle/tetris/index.html",
+      "tech": "html",
+      "tags": [
+        "blocks",
+        "classic"
+      ],
+      "description": "The classic falling-block puzzle.",
+      "i18n": {
+        "fa": {
+          "name": "تتریس",
+          "description": "معمای کلاسیک بلوک‌های در حال سقوط را حل کن.",
+          "category": "معمایی",
+          "tags": [
+            "blocks",
+            "کلاسیک"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "that-level-again-1",
+      "name": "That Level Again — 1",
+      "category": "platformer",
+      "path": "games/platformer/that-level-again-1/index.html",
+      "tech": "phaser",
+      "tags": [
+        "trick",
+        "platformer"
+      ],
+      "description": "Trick-platformer level 1.",
+      "i18n": {
+        "fa": {
+          "name": "باز هم همان مرحله — ۱",
+          "description": "مرحله اول این سکوبازی فریبنده را پشت سر بگذار.",
+          "category": "سکوبازی",
+          "tags": [
+            "trick",
+            "سکوبازی"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "that-level-again-2",
+      "name": "That Level Again — 2",
+      "category": "platformer",
+      "path": "games/platformer/that-level-again-2/index.html",
+      "tech": "phaser",
+      "tags": [
+        "trick",
+        "platformer"
+      ],
+      "description": "Trick-platformer level 2.",
+      "i18n": {
+        "fa": {
+          "name": "باز هم همان مرحله — ۲",
+          "description": "مرحله دوم این سکوبازی فریبنده را پشت سر بگذار.",
+          "category": "سکوبازی",
+          "tags": [
+            "trick",
+            "سکوبازی"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "that-level-again-3",
+      "name": "That Level Again — 3",
+      "category": "platformer",
+      "path": "games/platformer/that-level-again-3/index.html",
+      "tech": "phaser",
+      "tags": [
+        "trick",
+        "platformer"
+      ],
+      "description": "Trick-platformer level 3.",
+      "i18n": {
+        "fa": {
+          "name": "باز هم همان مرحله — ۳",
+          "description": "مرحله سوم این سکوبازی فریبنده را پشت سر بگذار.",
+          "category": "سکوبازی",
+          "tags": [
+            "trick",
+            "سکوبازی"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "that-level-again-4",
+      "name": "That Level Again — 4",
+      "category": "platformer",
+      "path": "games/platformer/that-level-again-4/index.html",
+      "tech": "phaser",
+      "tags": [
+        "trick",
+        "platformer"
+      ],
+      "description": "Trick-platformer level 4.",
+      "i18n": {
+        "fa": {
+          "name": "باز هم همان مرحله — ۴",
+          "description": "مرحله چهارم این سکوبازی فریبنده را پشت سر بگذار.",
+          "category": "سکوبازی",
+          "tags": [
+            "trick",
+            "سکوبازی"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "that-level-again-5",
+      "name": "That Level Again — 5",
+      "category": "platformer",
+      "path": "games/platformer/that-level-again-5/index.html",
+      "tech": "phaser",
+      "tags": [
+        "trick",
+        "platformer"
+      ],
+      "description": "Trick-platformer level 5.",
+      "i18n": {
+        "fa": {
+          "name": "باز هم همان مرحله — ۵",
+          "description": "مرحله پنجم این سکوبازی فریبنده را پشت سر بگذار.",
+          "category": "سکوبازی",
+          "tags": [
+            "trick",
+            "سکوبازی"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "thunder-god",
+      "name": "Thunder God",
+      "category": "shooter",
+      "path": "games/shooter/thunder-god/index.html",
+      "tech": "phaser",
+      "tags": [
+        "thunder",
+        "power"
+      ],
+      "description": "Smite enemies with lightning.",
+      "i18n": {
+        "fa": {
+          "name": "خدای رعد",
+          "description": "با صاعقه به دشمنان ضربه بزن.",
+          "category": "تیراندازی",
+          "tags": [
+            "thunder",
+            "power"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "tic-tac-toe",
+      "name": "Tic-Tac-Toe",
+      "category": "board",
+      "path": "games/board/tic-tac-toe/index.html",
+      "tech": "phaser",
+      "tags": [
+        "classic",
+        "quick"
+      ],
+      "description": "X's and O's. Three in a row wins.",
+      "i18n": {
+        "fa": {
+          "name": "دوز",
+          "description": "علامت‌های ضربدر و دایره را بچین؛ هرکس سه‌تا در یک ردیف بسازد برنده است.",
+          "category": "board",
+          "tags": [
+            "کلاسیک",
+            "quick"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "tile-tap",
+      "name": "Tile Tap",
+      "category": "puzzle",
+      "path": "games/puzzle/tile-tap/index.html",
+      "tech": "phaser",
+      "tags": [
+        "tap",
+        "tile",
+        "classic"
+      ],
+      "description": "Tap only the dark tiles. Don't miss.",
+      "i18n": {
+        "fa": {
+          "name": "ضربه به کاشی",
+          "description": "فقط روی کاشی‌های تیره ضربه بزن و اشتباه نکن.",
+          "category": "معمایی",
+          "tags": [
+            "tap",
+            "tile",
+            "کلاسیک"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "tower-shooter",
+      "name": "Tower Shooter",
+      "category": "shooter",
+      "path": "games/shooter/tower-shooter/index.html",
+      "tech": "phaser",
+      "tags": [
+        "defense",
+        "tower"
+      ],
+      "description": "Defend your tower from waves of enemies.",
+      "i18n": {
+        "fa": {
+          "name": "مدافع برج",
+          "description": "از برجت در برابر موج‌های دشمنان دفاع کن.",
+          "category": "تیراندازی",
+          "tags": [
+            "defense",
+            "tower"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "trench-defence",
+      "name": "Trench Defence",
+      "category": "shooter",
+      "path": "games/shooter/trench-defence/index.html",
+      "tech": "phaser",
+      "tags": [
+        "defense",
+        "war"
+      ],
+      "description": "Hold the trench against the assault.",
+      "i18n": {
+        "fa": {
+          "name": "دفاع از سنگر",
+          "description": "در برابر حمله دشمن از سنگر دفاع کن.",
+          "category": "تیراندازی",
+          "tags": [
+            "defense",
+            "war"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "two-cars",
+      "name": "Two Cars",
+      "category": "racing",
+      "path": "games/racing/two-cars/index.html",
+      "tech": "phaser",
+      "tags": [
+        "dual",
+        "reflex"
+      ],
+      "description": "Steer two cars at once. Catch & dodge.",
+      "i18n": {
+        "fa": {
+          "name": "دو خودرو",
+          "description": "هم‌زمان دو خودرو را هدایت کن؛ موارد لازم را بگیر و از خطرها دوری کن.",
+          "category": "مسابقه‌ای",
+          "tags": [
+            "dual",
+            "reflex"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "two-cars-ai",
+      "name": "Two Cars AI",
+      "category": "racing",
+      "path": "games/racing/two-cars-ai/index.html",
+      "tech": "phaser",
+      "tags": [
+        "dual",
+        "ai"
+      ],
+      "description": "AI-twist on the two-cars classic.",
+      "i18n": {
+        "fa": {
+          "name": "دو خودرو با هوش مصنوعی",
+          "description": "نسخه‌ای متفاوت از بازی کلاسیک دو خودرو.",
+          "category": "مسابقه‌ای",
+          "tags": [
+            "dual",
+            "ai"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "unruly",
+      "name": "Unruly",
+      "category": "puzzle",
+      "path": "games/puzzle/unruly/index.html",
+      "tech": "phaser",
+      "tags": [
+        "logic",
+        "binary"
+      ],
+      "description": "Place tiles by no-three-in-a-row rules.",
+      "i18n": {
+        "fa": {
+          "name": "بی‌قاعده",
+          "description": "کاشی‌ها را طوری بچین که سه مورد یکسان پشت سر هم قرار نگیرند.",
+          "category": "معمایی",
+          "tags": [
+            "منطقی",
+            "binary"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "vaccine-shooter",
+      "name": "Vaccine Shooter",
+      "category": "shooter",
+      "path": "games/shooter/vaccine-shooter/index.html",
+      "tech": "phaser",
+      "tags": [
+        "health",
+        "shooter"
+      ],
+      "description": "Shoot viruses with your vaccine gun.",
+      "i18n": {
+        "fa": {
+          "name": "تیرانداز واکسن",
+          "description": "با تفنگ واکسن به ویروس‌ها شلیک کن.",
+          "category": "تیراندازی",
+          "tags": [
+            "health",
+            "تیراندازی"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "whack-a-bug",
+      "name": "Whack-a-Bug",
+      "category": "arcade",
+      "path": "games/arcade/whack-a-bug/index.html",
+      "tech": "phaser",
+      "tags": [
+        "whack",
+        "reflex"
+      ],
+      "description": "Bonk the bugs as they pop up.",
+      "i18n": {
+        "fa": {
+          "name": "ضربه به حشرات",
+          "description": "هر وقت حشرات ظاهر شدند، سریع روی آن‌ها ضربه بزن.",
+          "category": "آرکید",
+          "tags": [
+            "whack",
+            "reflex"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "wordle",
+      "name": "Wordlee",
+      "category": "word-quiz",
+      "path": "games/word-quiz/wordle/index.html",
+      "tech": "phaser",
+      "tags": [
+        "wordle",
+        "letters"
+      ],
+      "description": "Guess the 5-letter word in 6 tries.",
+      "i18n": {
+        "fa": {
+          "name": "وردل",
+          "description": "در شش فرصت، کلمه پنج‌حرفی را حدس بزن.",
+          "category": "word-quiz",
+          "tags": [
+            "wordle",
+            "letters"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "words-of-wonder",
+      "name": "Words of Wonder",
+      "category": "word-quiz",
+      "path": "games/word-quiz/words-of-wonder/index.html",
+      "tech": "phaser",
+      "tags": [
+        "letters",
+        "spelling"
+      ],
+      "description": "Build words from a wheel of letters.",
+      "i18n": {
+        "fa": {
+          "name": "واژه‌های شگفت‌انگیز",
+          "description": "با حروف یک چرخ، واژه‌های مختلف بساز.",
+          "category": "word-quiz",
+          "tags": [
+            "letters",
+            "spelling"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "penalty",
+      "name": "Penalty Shootout",
+      "category": "sports",
+      "path": "games/sports/penalty/index.html",
+      "tech": "phaser",
+      "tags": [
+        "soccer",
+        "quick"
+      ],
+      "description": "One-on-one penalty kicks vs the keeper.",
+      "i18n": {
+        "fa": {
+          "name": "ضربات پنالتی",
+          "description": "در دوئل پنالتی، دروازه‌بان را شکست بده.",
+          "category": "ورزشی",
+          "tags": [
+            "soccer",
+            "quick"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "swipe-assassin",
+      "name": "Swipe Assassin",
+      "category": "arcade",
+      "path": "games/arcade/swipe-assassin/index.html",
+      "tech": "html",
+      "tags": [
+        "swipe",
+        "slash"
+      ],
+      "description": "Swipe to slice incoming threats.",
+      "i18n": {
+        "fa": {
+          "name": "قاتل سریع",
+          "description": "برای بریدن تهدیدهای پیش‌رو، انگشتت را روی صفحه بکش.",
+          "category": "آرکید",
+          "tags": [
+            "swipe",
+            "slash"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "level-devil",
+      "name": "Level Devil",
+      "category": "platformer",
+      "path": "games/platformer/level-devil/index.html",
+      "tech": "three",
+      "tags": [
+        "trick",
+        "platformer"
+      ],
+      "description": "Trickster platformer that hates you.",
+      "i18n": {
+        "fa": {
+          "name": "شیطان مرحله‌ها",
+          "description": "در این سکوبازی فریبنده از تله‌ها عبور کن.",
+          "category": "سکوبازی",
+          "tags": [
+            "trick",
+            "سکوبازی"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "line-trap",
+      "name": "Line Trap",
+      "category": "puzzle",
+      "path": "games/puzzle/line-trap/index.html",
+      "tech": "html",
+      "tags": [
+        "draw",
+        "minimal"
+      ],
+      "description": "Trap the dot inside your line.",
+      "i18n": {
+        "fa": {
+          "name": "تله خطی",
+          "description": "نقطه را با کشیدن خط درون محدوده به دام بینداز.",
+          "category": "معمایی",
+          "tags": [
+            "draw",
+            "minimal"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "window-shooter",
+      "name": "Window Shooter",
+      "category": "shooter",
+      "path": "games/shooter/window-shooter/index.html",
+      "tech": "phaser",
+      "tags": [
+        "aim",
+        "reflex"
+      ],
+      "description": "Pick off enemies through the window.",
+      "i18n": {
+        "fa": {
+          "name": "تیرانداز پنجره",
+          "description": "دشمنان را از پشت پنجره هدف بگیر.",
+          "category": "تیراندازی",
+          "tags": [
+            "aim",
+            "reflex"
+          ]
+        }
+      }
+    }
+  ]
+}

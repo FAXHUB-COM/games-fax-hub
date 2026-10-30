@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#09090d">
+<title>LAKCHERYA | مجموعه</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&display=swap');
+
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#07070b;--card:rgba(20,20,29,.72);--line:rgba(255,255,255,.09);
+  --text:#f7f7fb;--muted:#9b9ba9;--accent:#a855f7;--accent2:#ec4899;
+}
+body{
+  font-family:Vazirmatn,Arial,sans-serif;color:var(--text);background:
+  radial-gradient(circle at 15% 10%,rgba(168,85,247,.18),transparent 28%),
+  radial-gradient(circle at 85% 20%,rgba(236,72,153,.12),transparent 25%),var(--bg);
+  min-height:100vh;overflow-x:hidden;
+}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.25;
+background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);
+background-size:40px 40px}
+.container{width:min(1050px,92%);margin:auto}
+.hero{text-align:center;padding:75px 0 45px}
+.logo{
+font-size:clamp(45px,12vw,100px);font-weight:900;letter-spacing:8px;
+background:linear-gradient(120deg,#fff,#d8b4fe,#f9a8d4);
+-webkit-background-clip:text;background-clip:text;color:transparent;
+filter:drop-shadow(0 0 28px rgba(168,85,247,.35))
+}
+.badge{display:inline-flex;gap:8px;align-items:center;margin-top:12px;padding:8px 15px;border:1px solid var(--line);
+border-radius:999px;background:rgba(255,255,255,.04);color:#d7d7e2;font-size:13px}
+.fire{font-size:24px}
+.hero p{color:var(--muted);margin:18px auto 0;max-width:620px;line-height:2;font-size:14px}
+.section-title{display:flex;align-items:center;gap:12px;margin:38px 0 17px;font-size:20px;font-weight:800}
+.section-title:before{content:"";width:4px;height:24px;border-radius:9px;background:linear-gradient(#a855f7,#ec4899)}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}
+.card{
+position:relative;overflow:hidden;background:var(--card);border:1px solid var(--line);
+border-radius:22px;padding:22px;backdrop-filter:blur(18px);
+box-shadow:0 12px 40px rgba(0,0,0,.25);transition:.25s transform,.25s border-color
+}
+.card:hover{transform:translateY(-4px);border-color:rgba(168,85,247,.4)}
+.card.full{grid-column:1/-1}
+.icon{width:45px;height:45px;display:grid;place-items:center;border-radius:14px;
+background:linear-gradient(135deg,rgba(168,85,247,.2),rgba(236,72,153,.14));font-size:22px;margin-bottom:14px}
+.card h3{font-size:16px;margin-bottom:7px}.card p{color:var(--muted);font-size:12px;line-height:1.9}
+.btns{display:flex;gap:9px;flex-wrap:wrap;margin-top:17px}
+.btn{
+display:inline-flex;align-items:center;justify-content:center;gap:7px;padding:11px 15px;
+border-radius:12px;text-decoration:none;color:#fff;font-size:12px;font-weight:700;
+background:linear-gradient(135deg,#8b5cf6,#ec4899);box-shadow:0 8px 22px rgba(168,85,247,.18);
+transition:.2s;border:0;cursor:pointer;font-family:inherit
+}
+.btn:hover{transform:scale(1.03);filter:brightness(1.08)}
+.btn.secondary{background:rgba(255,255,255,.06);box-shadow:none;border:1px solid var(--line)}
+.rules{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:14px}
+.rule{padding:13px 8px;text-align:center;border-radius:14px;background:rgba(255,70,100,.06);border:1px solid rgba(255,100,120,.12);font-size:12px}
+.hidden{opacity:.75}
+.footer{text-align:center;color:#777784;font-size:11px;padding:50px 0 25px}
+.copy{font-size:11px;color:#777784;margin-top:9px}
+.toast{position:fixed;bottom:22px;left:50%;transform:translate(-50%,20px);opacity:0;
+background:#171720;border:1px solid var(--line);padding:12px 17px;border-radius:12px;font-size:12px;transition:.3s;z-index:10}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+@media(max-width:700px){.grid{grid-template-columns:1fr}.card.full{grid-column:auto}.rules{grid-template-columns:repeat(2,1fr)}.hero{padding-top:52px}}
+
+.back-wrap{position:fixed;top:16px;right:16px;z-index:50}
+.back-btn{display:inline-flex;align-items:center;gap:7px;padding:10px 15px;border-radius:12px;
+text-decoration:none;color:#fff;font-size:12px;font-weight:700;font-family:inherit;
+background:linear-gradient(135deg,#8b5cf6,#ec4899);box-shadow:0 8px 22px rgba(168,85,247,.18);
+border:0;transition:.2s}
+.back-btn:hover{transform:scale(1.03);filter:brightness(1.08)}
+</style>
+</head>
+<body>\n<div class="back-wrap"><a class="back-btn" href="./index.html">→ بازگشت به Games Fax Hub</a></div>
+<div class="container">
+
+<header class="hero">
+  <div class="fire">🐦‍🔥</div>
+  <div class="logo">LAKCHERYA</div>
+  <div class="badge">✧ مجموعه رسمی LAKCHERYA ✧</div>
+  <p>به صفحه رسمی مجموعه خوش آمدید؛ گپ‌ها، اکیپ‌ها، بات و چنل مجموعه را از اینجا پیدا کنید.</p>
+</header>
+
+<h2 class="section-title">✧ LAKCHERYA</h2>
+<div class="grid">
+
+<article class="card full">
+<div class="icon">👥</div><h3>گپ اصلی مجموعه</h3>
+<p>محل اصلی فعالیت مجموعه و دورهمی اعضا.</p>
+<div class="btns"><a class="btn" target="_blank" href="https://rubika.ir/joing/+BAEACEIJJ0YKWSYQDJXTKXAWHFTQZGDP">ورود به گپ ↗</a></div>
+<div class="rules">
+<div class="rule">🚫 دعوا</div><div class="rule">🚫 بحث سیاسی</div><div class="rule">🚫 لینک و آیدی</div><div class="rule">🚫 تبلیغات</div>
+</div>
+<p class="copy">تخلف از قوانین = ریم ✅️🐦‍🔥✨️</p>
+</article>
+
+<article class="card">
+<div class="icon">🔄</div><h3>گپ زاپاس مجموعه</h3><p>لینک جایگزین گپ مجموعه.</p>
+<div class="btns"><a class="btn" target="_blank" href="https://rubika.ir/joing/+BABICGDGE0ECMMMJTZQMIYOJDUUWHFYP">ورود ↗</a></div>
+</article>
+
+<article class="card">
+<div class="icon">⚔️</div><h3>گپ دعوا و بحث سیاسی</h3><p>در حال حاضر لینکی برای این بخش ثبت نشده است.</p>
+<div class="btns"><button class="btn secondary" onclick="toast('این بخش فعلاً فعال نیست')">فعلاً غیرفعال</button></div>
+</article>
+
+<article class="card full">
+<div class="icon">👑</div><h3>گپ اکیپ کل مجموعه</h3><p>ویژه ادمین‌ها و خودمونی‌های مجموعه.</p>
+<div class="btns"><a class="btn" target="_blank" href="https://rubika.ir/joing/+BACEJHHEA0PNDSLFOAGJFZBWQHQIOCVR">ورود به اکیپ ↗</a></div>
+<p class="copy">◇ شرایط: ادمین‌ها و خودمونی‌های مجموعه عضو باشید ✅️🐦‍🔥✨️</p>
+</article>
+
+<article class="card">
+<div class="icon">🤝</div><h3>گپ همکاری مجموعه</h3><p>این بخش فعلاً لینک عمومی ندارد.</p>
+</article>
+
+<article class="card">
+<div class="icon">🤖</div><h3>بات رسمی مجموعه</h3><p>@LAKCHERYA_Bot</p>
+<div class="btns">
+<a class="btn" target="_blank" href="https://rubika.ir/LAKCHERYA_Bot">باز کردن بات ↗</a>
+<button class="btn secondary" onclick="copyText('@LAKCHERYA_Bot')">کپی آیدی</button>
+</div>
+</article>
+
+<article class="card">
+<div class="icon">📢</div><h3>چنل مجموعه</h3><p>@CH_LAKCHERYA</p>
+<div class="btns">
+<a class="btn" target="_blank" href="https://rubika.ir/CH_LAKCHERYA">باز کردن چنل ↗</a>
+<button class="btn secondary" onclick="copyText('@CH_LAKCHERYA')">کپی آیدی</button>
+</div>
+</article>
+
+</div>
+
+<h2 class="section-title">✧ GEM</h2>
+<div class="grid">
+<article class="card">
+<div class="icon">💎</div><h3>اکیپ دخترای گپ</h3><p>گپ اختصاصی اکیپ دخترای مجموعه.</p>
+<div class="btns"><a class="btn" target="_blank" href="https://rubika.ir/joing/+BBEJEADEH0BHZQZPQVRJQRZJJJVUNDZP">ورود ↗</a></div>
+</article>
+<article class="card">
+<div class="icon">💎</div><h3>اکیپ پسرای گپ</h3><p>گپ اختصاصی اکیپ پسرای مجموعه.</p>
+<div class="btns"><a class="btn" target="_blank" href="https://rubika.ir/joing/+BBEJCEDEJ0DQPIYHZDGXATCKVSXJKGNK">ورود ↗</a></div>
+</article>
+</div>
+
+<h2 class="section-title">✧ META</h2>
+<div class="card hidden">
+<div class="icon">🔒</div><h3>اطلاعات META</h3><p>این بخش در حال حاضر مخفی شده است.</p>
+<div class="btns"><button class="btn secondary" onclick="toast('META در حال حاضر مخفی است 🔒')">مشاهده وضعیت</button></div>
+</div>
+
+<h2 class="section-title">✧ لینک مهم</h2>
+<div class="card full">
+<div class="icon">📌</div><h3>اینفو گپ — گممون نکنید</h3><p>برای دسترسی سریع، این لینک را ذخیره کنید.</p>
+<div class="btns">
+<a class="btn" target="_blank" href="https://rubika.ir/joing/+BBAGFHDII0VMDXAEOTPPIGSBKMCTUKVO">ورود به اینفو گپ ↗</a>
+</div>
+</div>
+
+<footer class="footer">
+  🐦‍🔥 ✧ LAKCHERYA ✧ 🐦‍🔥
+  <br>ساخته شده برای معرفی و دسترسی سریع به مجموعه
+</footer>
+</div>
+<div id="toast" class="toast"></div>
+<script>
+function toast(msg){
+ const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');
+ clearTimeout(window.tt);window.tt=setTimeout(()=>t.classList.remove('show'),2200);
+}
+async function copyText(text){
+ try{await navigator.clipboard.writeText(text);toast('کپی شد ✓');}
+ catch(e){toast(text);}
+}
+</script>
+</body>
+</html>
